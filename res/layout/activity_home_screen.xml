@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/newusr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/qstart"
+        android:layout_alignRight="@+id/qstart"
+        android:layout_below="@+id/qstart"
+        android:layout_marginTop="23dp"
+        android:onClick="onClick"
+        android:text="@string/createusr_label" />
+
+    <Button
+        android:id="@+id/qstart"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:onClick="onClick"
+        android:text="@string/quickstart_label" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="18dp"
+        android:onClick="onClick"
+        android:text="@string/quit_label" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/newusr"
+        android:layout_alignRight="@+id/newusr"
+        android:layout_below="@+id/newusr"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:text="@string/login_label" />
+
+</RelativeLayout>
